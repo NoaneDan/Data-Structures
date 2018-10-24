@@ -1,2 +1,2 @@
 # Data-Structures
-Java implementation of the common data structures.
+C implementation of the common data structures.
