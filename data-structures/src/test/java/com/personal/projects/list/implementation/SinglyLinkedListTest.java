@@ -120,18 +120,20 @@ public class SinglyLinkedListTest {
         assertEquals(10, (int) list.front());
         assertEquals(9, (int) list.back());
 
-        list.erase(1);
-        assertEquals(2, list.size());
+        list.insert(1, 7);
+        list.erase(2);
+        assertEquals(3, list.size());
         assertEquals(10, (int) list.front());
         assertEquals(9, (int) list.back());
 
         list.erase(0);
-        assertEquals(1, list.size());
-        assertEquals(9, (int) list.front());
+        assertEquals(2, list.size());
+        assertEquals(7, (int) list.front());
         assertEquals(9, (int) list.back());
         
         list.erase(0);
-        assertEquals(0, list.size());
+        assertEquals(1, list.size());
+        assertEquals(9, (int) list.valueAt(0));
     }
 
     @Test

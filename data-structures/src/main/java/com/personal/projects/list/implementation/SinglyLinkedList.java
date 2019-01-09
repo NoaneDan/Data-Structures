@@ -209,6 +209,7 @@ public class SinglyLinkedList<T> implements List<T> {
             Node<T> current = head;
             while (position + 1 < index) {
                 current = current.next;
+                position += 1;
             }
 
             current.next = current.next.next;
