@@ -162,4 +162,14 @@ public class DynamicArray<T> implements Array<T> {
             array[position] = array[position + 1];
         }
     }
+
+    @Override
+    public void set(int index, T item) {
+
+        if (indexOutOfRange(index)) {
+            throw new IndexOutOfBoundsException("Index out of range!");
+        }
+
+        array[index] = item;
+    }
 }

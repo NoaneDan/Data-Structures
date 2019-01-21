@@ -6,6 +6,7 @@ public interface Array<T> {
     int capacity();
     boolean empty();
     T at(int index);
+    void set(int index, T item);
     void push(T item);
     void insert(int index, T item);
     void prepend(T item);
