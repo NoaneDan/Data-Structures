@@ -1,6 +1,6 @@
-package com.personal.projects.vector.implementation;
+package com.personal.projects.array.implementation;
 
-import com.personal.projects.vector.Array;
+import com.personal.projects.array.Array;
 
 public class DynamicArray<T> implements Array<T> {
 

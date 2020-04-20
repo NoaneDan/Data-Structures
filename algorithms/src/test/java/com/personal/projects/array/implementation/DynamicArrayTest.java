@@ -1,10 +1,10 @@
-package com.personal.projects.vector.implementation;
+package com.personal.projects.array.implementation;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-import com.personal.projects.vector.Array;
+import com.personal.projects.array.Array;
 
 import org.junit.Test;
 

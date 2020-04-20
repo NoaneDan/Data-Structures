@@ -1,4 +1,4 @@
-package com.personal.projects.vector;
+package com.personal.projects.array;
 
 public interface Array<T> {
 

@@ -1,8 +1,8 @@
 package com.personal.projects.heap.implementation;
 
 import com.personal.projects.heap.Heap;
-import com.personal.projects.vector.Array;
-import com.personal.projects.vector.implementation.DynamicArray;
+import com.personal.projects.array.Array;
+import com.personal.projects.array.implementation.DynamicArray;
 
 public class BinaryHeap<T extends Comparable<T>> implements Heap<T> {
 
